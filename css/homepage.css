@@ -1,0 +1,9 @@
+#homesection{
+  background-image: url("/images/smile.jpeg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family: 'Archivo', sans-serif;
+}
+#homesection .navbar{padding-top:2.2vh;padding-bottom:2.2vh;}

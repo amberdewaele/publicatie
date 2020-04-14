@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Archivo&display=swap');
+@charset "UTF-8";
+/* CSS Document */
+
+
+img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+/* volgende regel gaat de klasse "container-fluid" beschrijven*/
+.container-fluid {
+    width: 100%;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+#smiley{
+    max-width: 10px;
+    max-height:10px; 
+    float: right;
+    margin-top:10px;  
+}
+
+/* */
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {
+    font-family: 'Archivo', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+}
+
+/* */
+.navbar {
+    top: 15px;
+}
+
+.navtoggle {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+.navbar-brand {
+    margin-top: 2vh;
+    white-space: inherit;
+}
+
+.description {
+    color: #000000;
+    font-size: 10px;
+    position: center;
+}
+
+/* */
+.contentsection {
+    padding-top: 5vh;
+}
+
+.contentsectiontitle {
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contentsectiontitle h1,
+.contentsectiontitle h2,
+.contentsectiontitle h3,
+.contentsectiontitle p {
+    font-size: 1rem;
+}

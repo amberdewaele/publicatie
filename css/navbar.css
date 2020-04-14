@@ -1,0 +1,26 @@
+/* volgende class is toegevoegd aan de navigatie en regelt de achtergondkleur */
+.bg-white {
+    background-color: white;
+}
+
+/* volgende class regelt de marges en padding van de navigatie */
+.navbar {
+    font-family: 'Archivo', sans-serif;
+    z-index: 1000;
+    padding-left: 30px;
+}
+
+.navbar-collapse {
+
+    font-family: 'Archivo', sans-serif;
+}
+
+.navbar ul {
+    padding-top: 50px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.navbar .description {
+    padding-top: 330px;
+    font-family: 'Archivo', sans-serif;
+}
