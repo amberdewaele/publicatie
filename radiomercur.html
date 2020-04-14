@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>radio mercur</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <style>
+        .body {
+            font: "Archivo";
+        }
+
+        @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Archivo&display=swap')>
+
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152936063-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-152936063-1');
+
+        var mysrc = "images/QSLfront1.jpg";
+
+        function changeImage() {
+            if (mysrc == "images/QSLfront1.jpg") {
+                document.images["imgClickAndChange"].src = "images/QSLfront1.jpg";
+                document.images["imgClickAndChange"].alt = "QSL1";
+                mysrc = "images/QSLfront2.jpg";
+            } else {
+                document.images["imgClickAndChange"].src = "images/QSLfront2.jpg";
+                document.images["imgClickAndChange"].alt = "QSL2";
+                mysrc = "images/QSLfront1.jpg";
+            }
+            if (mysrc == "images/QSLfront2.jpg") {
+                document.images["imgClickAndChange"].src = "images/QSLfront2.jpg";
+                document.images["imgClickAndChange"].alt = "QSL2";
+                mysrc = "images/QSLfront3.jpg";
+            } else {
+                document.images["imgClickAndChange"].src = "images/QSLfront3.jpg";
+                document.images["imgClickAndChange"].alt = "QSL3";
+                mysrc = "images/QSLfront2.jpg";
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <!-- Start van de section -->
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <nav class="navbar navbar-light bg-white">
+                        <!-- Navbar content -->
+                        <div class="navtoggle" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        </div>
+                        <div class="collapse navbar-collapse show" id="navbarText">
+                            <a class="titleworkbold" id="amberdewaele" class="navbar-brand" href="index.html" >portfolio</a>
+                           <br>
+                            <a class="navbar-brand" href="index.html">amber dewaele</a>
+                            <br>
+                            <a class="navbar-brand" href="https://www.instagram.com/visio.graphics/">visio.graphics</a>
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="titleworkbold" class="nav-link" href="archief.html">archive<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="page2.html">about</a>
+                                </li>
+                               
+                                <li class="nav-item">
+                                    <a class="nav-link" href="colophon.html">colophon</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-8">
+                    <div class="container">
+                        <div class="rowarchief">
+                            <div class="col-4">
+                                <div>
+                                    <span>2018</span>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <img src="images/radiomercur.jpg" class="fotogrootrand">
+                                    <img src="images/vlagmockup.jpg" class="fotogroot">
+                                    <img src="images/vlag.jpg" class="fotomedium">
+                                    <p class="bijschrift">back design</p>
+                                    <div class:row></div>
+                                    <img src="images/QSLback.jpg" class="fotokleinbijschrift">
+                                    <p class="bijschrift">three print designs</p>
+                                    <div>
+                                        <div class="column1">
+                                            <p>
+                                                <img alt="QSL1" src="images/QSLfront1.jpg" class="fotokleinbijschrift" id="imgClickAndChange" onclick="changeImage()" style="cursor:pointer">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class=titleworkbold>radio mercur
+                                </div>
+                                <div class=titlework>500x700mm (poster) <br> 1000x700mm (flag) <br> 140x90mm (QSL cards)
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Start van de footer -->
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 description">
+                        <p>amber dewaele - Copyright © amber dewaele. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap-4.0.0.js"></script>
+    </div>
+</body>
+
+</html>
